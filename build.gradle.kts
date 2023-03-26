@@ -45,4 +45,8 @@ ktor {
     fatJar {
         archiveFileName.set("fat.jar")
     }
+
+    docker {
+        jreVersion.set(io.ktor.plugin.features.JreVersion.JRE_17)
+    }
 }
